@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RulesActivity"
+    android:background="@drawable/clothcross">
+
+    <TextView
+        android:id="@+id/rulesTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="REGULI"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/rulesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="150dp"
+        android:textSize="15dp"
+        android:text="- Scopul jocului este de a obține toate cărțile.\n- Se împart toate cărțile în mod egal.\n- Jucătorii nu pot vedea cărțile.\n\n- Începutul jocului:\n   - ambii jucători întorc din pachet prima carte;\n   - cele două cărți se compară;\n   - ordinea cărților este de la 2 la AS;\n   - runda este câștigată de cartea mai mare.\n   - câștigătorul ia ambele cărți.\n\n - Războiul:\n   - războiul se declanșează când ambele cărți sunt egale;\n   - se pun peste cartea declanșatoare atâtea cărți câte indică valoarea ei (în cazul AS-ului se vor pune 11 cărți)\n   - ultima carte se va compara după aceleați reguli.\n\n - Sfârșitul jocului:\n   - jocul continuă până când toate cărțile ajung la unul dintre jucători."
+        />
+
+</RelativeLayout>

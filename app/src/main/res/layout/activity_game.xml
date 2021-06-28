@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cloth"
+    tools:context=".GameActivity">
+
+    <TextView
+        android:id="@+id/opponentNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:text="Andreea90"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/opponentScoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="50dp"
+        android:text="26 carti"
+        android:textColor="#000000"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/opponentCard"
+        android:layout_width="106dp"
+        android:layout_height="165dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="100dp"
+
+        />
+
+
+    <ImageView
+        android:id="@+id/backCard1"
+        android:layout_width="106dp"
+        android:layout_height="165dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/backcards" />
+
+    <Button
+        android:id="@+id/startGameButton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/buttonshape"
+
+        android:enabled="true"
+        android:onClick="onStartClick"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="START"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/backCard2"
+        android:layout_width="106dp"
+        android:layout_height="165dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="350dp"
+        app:srcCompat="@drawable/backcards" />
+
+    <ImageView
+        android:id="@+id/userCard"
+        android:layout_width="106dp"
+        android:layout_height="165dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="350dp" />
+
+    <TextView
+        android:id="@+id/userNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="530dp"
+        android:text="Alexandra97"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/userScoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="530dp"
+        android:text="26 carti"
+        android:textColor="#000000"
+        android:textSize="18dp" />
+
+
+</RelativeLayout>

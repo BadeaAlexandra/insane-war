@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/relativeLayout"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@drawable/clothlight"
+tools:context=".SignUpActivity">
+
+<ImageView
+        android:id="@+id/cardImageView"
+        android:layout_width="240dp"
+        android:layout_height="115dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/card" />
+
+    <EditText
+        android:id="@+id/firstNameEditText"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="@android:color/black"
+        android:ems="10"
+        android:hint="Introdu numele tau"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/lastNameEditText"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="260dp"
+        android:backgroundTint="@android:color/black"
+        android:ems="10"
+        android:hint="Introdu prenumele tau"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="320dp"
+        android:backgroundTint="@android:color/black"
+        android:ems="10"
+        android:hint="Introdu numele utilizatorului"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="380dp"
+        android:backgroundTint="@android:color/black"
+        android:ems="10"
+        android:hint="Introdu parola"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="440dp"
+        android:backgroundTint="@android:color/black"
+        android:ems="10"
+        android:hint="Introdu adresa de e-mail"
+        android:inputType="textPersonName" />
+
+<Button
+    android:id="@+id/signUpButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="540dp"
+    android:background="@drawable/button_background"
+    android:layout_centerHorizontal="true"
+    android:text="INREGISTREAZA-TE" />
+
+</RelativeLayout>
